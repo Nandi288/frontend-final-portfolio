@@ -1,6 +1,6 @@
 # Nandi-Gabriella Shandu - Developer Portfolio (v2)
 
-**Project Name:** EmeraldStack Devfolio  
+**Project Name:**  Nandi-Gabriella Shandu - Developer Portfolio (v2)
 **Chosen Option:** Option A - Personal Portfolio Site  
 **Track:** Frontend Development  
 **Submission:** Final Track Project Assessment  
@@ -103,12 +103,12 @@ Lighthouse audits were conducted on Google Chrome against the live production de
 
 ### Scores Matrix
 
-| Metric | Before Fixes | After Fixes | Minimum Target |
-| :--- | :--- | :--- | :--- |
-| **Performance** | 81 | **96** | Best Effort |
-| **Accessibility** | 82 | **98** | $\ge$ **90 (Required)** |
-| **Best Practices** | 88 | **100** | Best Effort |
-| **SEO** | 85 | **100** | Best Effort |
+| Metric | Score | Status | Minimum Target | Notes |
+| :--- | :---: | :---: | :---: | :--- |
+| **Performance** | **92** | Pass (Green) | Best Effort | Fast First Contentful Paint and lightweight asset delivery via Vite |
+| **Accessibility** | **96** | Pass (Green) | ≥ **90 (Required)** | Semantic landmarks, ARIA labels, and WCAG AA contrast compliance |
+| **Best Practices** | **100** | Perfect (Green) | Best Effort | Modern web standards, HTTPS security, and zero console errors |
+| **SEO** | **83** | Pass (Orange) | Best Effort | Validated viewport, mobile responsiveness, and discoverable link structure |
 
 ### Accessibility & Performance Issues Fixed:
 
