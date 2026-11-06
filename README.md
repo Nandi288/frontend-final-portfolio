@@ -1,16 +1,48 @@
-# React + Vite
+# Nandi-Gabriella Shandu — Developer Portfolio (v2)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Track:** Frontend Development  
+**Chosen Option:** Option A — Personal Portfolio Site  
+**Submission:** Final Track Project Assessment  
 
-Currently, two official plugins are available:
+A modern, accessible, and high-performance developer portfolio built from scratch with React (Vite) and Tailwind CSS. The application presents full-stack software development projects, hackathon achievements, verified credentials, and an integrated contact workflow. Designed with a custom Emerald theme, complete keyboard accessibility, and a persistent dark mode toggle.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Live Deployment: [YOUR_NETLIFY_URL_HERE]
+- GitHub Repository:(https://github.com/Nandi288/frontend-final-portfolio)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Features Implemented
 
-## Expanding the ESLint configuration
+- Dynamic Routing & Detail Pages: Full client-side routing via React Router DOM, including dynamic case-study routes (`/projects/:projectId`) with deep-link persistence across page reloads.
+- Controlled Contact Form:Netlify-integrated contact form featuring input state control, validation, and distinct operational states (`idle`, `sending`, `success`, `error`).
+- Unified Emerald Theme & Dark Mode: Accessible color system configured through Tailwind tokens with dark/light persistence saved to `localStorage`.
+- Hackathon & Milestones Tracker: Dedicated timeline showcasing competitive sprints, prototype pitch deliverables, and awards.
+- Accessibility & Skip Navigation:Accessible landmark routing, Tab-index focus ring indicators, descriptive image `alt` attributes, and a skip-to-content bypass link.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+Technical Stack
+
+- Framework: React 18 (Vite)
+- Styling: Tailwind CSS (Utility-first, class-based dark variant)
+- Routing: React Router DOM (v6)
+- Hosting & Form Processing: Netlify
+
+---
+
+## Local Setup & Installation
+
+Clone the repository and install dependencies locally:
+
+```bash
+# Clone repository
+git clone [https://github.com/Nandi288/frontend-final-portfolio.git](https://github.com/Nandi288/frontend-final-portfolio.git)
+
+# Navigate to project directory
+cd frontend-final-portfolio
+
+# Install dependencies
+npm install
+
+# Start local development server
+npm run dev
