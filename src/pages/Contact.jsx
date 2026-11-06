@@ -11,25 +11,18 @@ export default function Contact() {
     setTimeout(() => setCopied(false), 2500);
   };
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map((key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-      .join("&");
-  };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     setStatus("sending");
 
     const form = e.target;
     const formData = new FormData(form);
-    const data = Object.fromEntries(formData.entries());
 
     try {
       const response = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...data }),
+        body: new URLSearchParams(formData).toString(),
       });
 
       if (response.ok) {
@@ -156,7 +149,7 @@ export default function Contact() {
           </div>
         </div>
 
-      
+        {/* Right Column: Form Container */}
         <div className="lg:col-span-7 p-8 sm:p-10 rounded-[32px] border border-white/80 dark:border-zinc-800/80 bg-white/70 dark:bg-zinc-900/60 backdrop-blur-xl shadow-xl shadow-zinc-200/50 dark:shadow-none">
           <span className="text-xs font-bold text-emerald-600 dark:text-emerald-400 tracking-widest uppercase">
             Send a Message
@@ -196,7 +189,7 @@ export default function Contact() {
               onSubmit={handleSubmit}
               className="mt-6 space-y-4"
             >
-              {/* Hidden fields for Netlify */}
+              {/* Hidden fields for Netlify detection */}
               <input type="hidden" name="form-name" value="contact" />
               <p className="hidden">
                 <label>

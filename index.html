@@ -4,16 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>portfolio-modern</title>
+    <title>Nandi Gabriella Shandu | Full-Stack Developer</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Hidden form so Netlify detects form fields during build -->
+    <form name="contact" data-netlify="true" data-netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+
     <script type="module" src="/src/main.jsx"></script>
-  <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <input type="text" name="subject" />
-  <textarea name="message"></textarea>
-</form>
   </body>
 </html>
