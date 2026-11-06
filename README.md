@@ -6,7 +6,7 @@
 
 A modern, accessible, and high-performance developer portfolio built from scratch with React (Vite) and Tailwind CSS. The application presents full-stack software development projects, hackathon achievements, verified credentials, and an integrated contact workflow. Designed with a custom Emerald theme, complete keyboard accessibility, and a persistent dark mode toggle.
 
-- Live Deployment: [YOUR_NETLIFY_URL_HERE]
+- Live Deployment: https://6aee1bb704c290dbe9c3a93a--nandidevfolio.netlify.app/
 - GitHub Repository:(https://github.com/Nandi288/frontend-final-portfolio)
 
 ---
