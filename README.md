@@ -1,24 +1,37 @@
-# Nandi-Gabriella Shandu — Developer Portfolio (v2)
+# Nandi-Gabriella Shandu - Developer Portfolio (v2)
 
 **Project Name:** EmeraldStack Devfolio  
-**Chosen Option:** Option A — Personal Portfolio Site  
+**Chosen Option:** Option A - Personal Portfolio Site  
 **Track:** Frontend Development  
 **Submission:** Final Track Project Assessment  
 
-A modern, accessible, and high-performance developer portfolio built from scratch with React (Vite) and Tailwind CSS. The application presents full-stack software development projects, hackathon achievements, verified credentials, and an integrated contact workflow. Designed with a custom Emerald theme, complete keyboard accessibility, and a persistent dark mode toggle.
+A modernized, high-performance developer portfolio re-engineered from an earlier static HTML, CSS, and vanilla JavaScript codebase into a component-driven Single Page Application using React (Vite) and Tailwind CSS. The application showcases full-stack .NET software projects, hackathon achievements, verified academic credentials, and an integrated contact pipeline with persistent dark mode and WCAG AA accessibility.
 
 - **Live Deployment:** [https://6aee1bb704c290dbe9c3a93a--nandidevfolio.netlify.app/](https://6aee1bb704c290dbe9c3a93a--nandidevfolio.netlify.app/)
 - **GitHub Repository:** [https://github.com/Nandi288/frontend-final-portfolio](https://github.com/Nandi288/frontend-final-portfolio)
 
 ---
+## Evolution & Improvements from Version 1
+
+Architecture Upgrade: Migrated from static multi-page HTML/CSS files to a modular, reusable React component architecture with client-side routing.
+
+Maintainable Data Layer: Replaced hardcoded markup with centralized JavaScript data stores for projects, experience timelines, and skill matrices.
+
+Modern Styling & Theming: Rebuilt styling with Tailwind CSS tokens and added a system-aware dark/light theme switch stored in localStorage.
+
+State-Driven Contact Workflow: Transformed a static contact template into an asynchronous, controlled form integrated with Netlify Forms.
 
 ## Features Implemented
 
-- **Dynamic Routing & Detail Pages:** Full client-side routing via React Router DOM, including dynamic case-study routes (`/projects/:projectId`) with deep-link persistence across page reloads.
-- **Controlled Contact Form:** Netlify-integrated contact form featuring input state control, validation, and distinct operational states (`idle`, `sending`, `success`, `error`).
-- **Unified Emerald Theme & Dark Mode:** Accessible color system configured through Tailwind tokens with dark/light persistence saved to `localStorage`.
-- **Hackathon & Milestones Tracker:** Dedicated timeline showcasing competitive sprints, prototype pitch deliverables, and awards.
-- **Accessibility & Skip Navigation:** Accessible landmark routing, Tab-index focus ring indicators, descriptive image `alt` attributes, and a skip-to-content bypass link.
+Dynamic Routing & Detail Pages: Full client-side routing via React Router DOM, including dynamic case-study routes (/projects/:projectId) with deep-link persistence across page reloads.
+
+Controlled Contact Form: Netlify-integrated contact form featuring input state control, validation, and distinct operational states (idle, sending, success, error).
+
+Unified Emerald Theme & Dark Mode: Accessible color system configured through Tailwind tokens with dark/light persistence saved to localStorage.
+
+Hackathon & Milestones Tracker: Dedicated timeline showcasing competitive sprints, prototype pitch deliverables, and awards.
+
+Accessibility & Skip Navigation: Accessible landmark routing, Tab-index focus ring indicators, descriptive image alt attributes, and a skip-to-content bypass link.
 
 ---
 
