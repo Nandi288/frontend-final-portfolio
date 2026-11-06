@@ -88,10 +88,10 @@ Follow these instructions to clone, run, and build the project locally:
 ## Screenshots
 
 ### Desktop View (1280px)
-![Desktop View](./public/images/screenshots/desktop-preview.png)
+![Desktop View](./public/images/desktop-preview.png)
 
 ### Mobile View (375px)
-![Mobile View](./public/images/screenshots/mobile-preview.png)
+![Mobile View](./public/images/mobile-preview.png)
 
 
 
