@@ -88,12 +88,12 @@ Follow these instructions to clone, run, and build the project locally:
 ## Screenshots
 
 ### Desktop View (1280px)
-![Desktop View](public/images/screenshots/desktop-view.png)
+![Desktop View](./public/images/screenshots/desktop-preview.png)
 
 ### Mobile View (375px)
-![Mobile View](public/images/screenshots/mobile-view.png)
+![Mobile View](./public/images/screenshots/mobile-preview.png)
 
-> *Tip: Save your desktop and mobile screenshots inside `public/images/screenshots/` with the filenames `desktop-view.png` and `mobile-view.png`.*
+
 
 ---
 
